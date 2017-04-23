@@ -2,7 +2,7 @@ header{
 	background: #ffffff;
 	width: 100%;
 	height: 75px;
-	margin-bottom:0px;
+	margin-bottom:15px;
 }
 #Name{
 	margin:0px;
@@ -29,10 +29,13 @@ section{
 	width:100%;
 	height:500px;
 	margin-top: 0px;
+	margin-left:0px;
+	margin-right:0px;
 	background-image: url("../images/background.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
+	border-bottom: solid #4aaaa5 5px;
 }
 .ContentArea{
 	float:left;
@@ -62,8 +65,39 @@ p{
 	margin-right:15px;
 }
 .ExternalLinks{
+	float:right;
 	margin-top: 40px;
-	background-color:white;
+	margin-right:250px;
+	background-color: #ffffff;
+	width:20%;
+	height:150px;
+}
+.Git{
+	height:50px;
+	width:50px;
+}
+.Linked{
+	height:50px;
+	width:50px;
+}
+.Stacked{
+	height:50px;
+	width:50px;
+}
+.worklinks{
+	margin-left: 15px;
+}
+#links{
+	border-bottom: solid #dddddd 3px;
+	margin-left:15px;
+	margin-right:15px;
+	color: #4aaaa5;
+}
+footer{
+	padding:25px;
+	background-color: #666666;
+	text-align: center;
+	color: #999999;
 }
 
 
@@ -77,8 +111,5 @@ a:hover{
 	color: black;
 }
 body{
-	/*background-image: url("../images/background.jpg");*/
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center center;
+	
 }
