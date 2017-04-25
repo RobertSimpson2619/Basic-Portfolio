@@ -64,13 +64,14 @@ section{
 .headshot{
 	float:left;
 	margin-left:15px;
+	margin-right:15px;
 	width:150px;
 	height:150px;
 }
 p{
-	float:left;
-	margin-left: 15px;
+	margin-left:15px;
 	margin-right:15px;
+	max-height:90%;
 }
 .ExternalLinks{
 	float:right;
@@ -109,8 +110,19 @@ footer{
 }
 .input{
 	margin-left:15px;
+	margin-right:15px;
 	color: #777777;
 	margin-top:10px;
+	width:90%;
+	max-height:50px;
+	max-width:90%;
+}
+.message{
+	margin-left:15px;
+	margin-right:15px;
+	color: #777777;
+	margin-top:10px;
+	width:90%;
 }
 #submit{
 	margin-left:15px;
